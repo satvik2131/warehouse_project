@@ -1,0 +1,493 @@
+/* Here you can add other styles */ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+  font-weight: 500;
+  background: #f2f2f2;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+p,span{
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 0px;
+  font-size: 14px;
+}
+.ft-12{
+  font-size: 12px!important;
+}
+.y_bg{
+  background-color: #ff9900!important;
+  color: #fff!important;
+  font-weight: 500!important;
+  letter-spacing: 1px!important;
+}
+.y_bg:hover{
+  background-color: #999999!important;
+  color: #000!important;
+}
+.btn:focus, .btn.focus {
+  outline: 0;
+  box-shadow: none;
+  text-decoration: none;
+}
+.w-91{
+  width: 91%;
+}
+.rounded_btn{
+  display: flex;
+  align-items: flex-end;
+}
+.rounded_btn .btn{
+  border-radius: 50%;
+    padding: 5px 5px;
+    margin-right: 0!important;
+    min-width: 35px;
+    height: 35px;
+    background-color: #999;
+}
+.rounded_btn .btn:hover{
+  color: #fff;
+  background-color: #ff9900;
+}
+a {
+  text-decoration: none;
+  background-color: transparent;
+  color: #ff9900;
+}
+button:focus {
+  outline:none!important;
+  outline: none!important;
+}
+.form-control:focus {
+    color: #768192;
+    background-color: #fff;
+    border-color: #958bef;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem rgba(219, 31, 41, 0.25);
+  }  
+.category-img{
+  border-radius: 10px;
+}
+.c-sidebar .c-sidebar-brand {
+  color: #fff;
+  background: #777575!important;
+}
+.c-sidebar {
+  color: #000;
+  background: #999999;
+}
+.c-sidebar .c-sidebar-nav-link.c-active{
+  font-weight: 500;
+}
+.comp-name p{
+  margin-bottom: 0;
+}
+.c-sidebar-nav-m-icon {
+  flex: 0 0 56px!important;
+  height: 1.09375rem!important;
+  font-size: 1.09375rem!important;
+  text-align: center!important;
+  transition: 0.3s!important;
+  fill: currentColor!important;
+  margin-left: -1rem;
+  color: #000;
+}
+.calendar{
+  min-height: 175px;
+}
+.react-calendar__navigation {
+  height: 38px!important;
+  margin-bottom: 0!important;
+}
+.react-calendar__tile {
+  max-width: 100%;
+  text-align: center;
+  padding: 0.55em 0.3em!important;
+  background: none;
+  font-size: 12.3333px;
+}
+.pp .p-0{
+  padding: 14.5px !important;
+}
+.fontnsize{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: left;
+}
+.buttmar{
+  margin: 0 8px;
+}
+.my_margin{
+  margin-left: 170px;
+}
+.my_new_style{
+  list-style: none;
+}
+.dashboardHeading{
+  padding: 0 6px;
+  margin: 5px 0;
+}
+.rdrMonth {
+  width: 29.1em!important;
+}
+.rdrDay{
+  line-height: 2.500em!important;
+  height: 2.500em!important;
+}
+.rdrWeekDay{
+  line-height: 2.00em!important;
+}
+.rdrMonth {
+  padding: 0 0.833em 0.666em 0.833em!important;
+}
+.rdrMonthAndYearWrapper {
+  align-items: center;
+  height: 27px!important;
+  padding-top: 0!important;
+}
+.rdrDateDisplay{
+  margin: 0.35em!important;
+}
+.rdrCalendarWrapper{
+  font-size: 11px!important;
+}
+.rdrDayToday .rdrDayNumber span:after {
+  bottom: 2px!important;
+}
+.MuiTypography-body1{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"!important;
+    font-size: 0.875rem!important;
+    font-weight: 400!important;
+    line-height: 1.5!important;
+    
+}
+.MuiTypography-body2{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"!important;
+    font-size: 0.875rem!important;
+    font-weight: 400!important;
+    line-height: 1.5!important;
+    text-align: center!important;
+}
+.customer_name{
+  font-weight: bold;
+}
+.img_preview_div{
+    width: 120px;
+    height: 100px;
+}
+.img_preview_div .newImg{
+    width: auto;
+    height: 100%;
+    border-radius: 5px;
+}
+.cat_img_preview_div{
+  width: 80px;
+  height: 60px;
+ 
+}
+.cat_img_preview_div .newImg{
+  width: auto;
+  height: 100%;
+  border-radius: 5px;
+}
+.purchase_order_view tbody tr th{
+  width: 200px;
+  background-color: #eaeef2;
+  border-top: 1px solid #f4f4f4; 
+}
+.purchase_order_view tbody tr td{
+  width: 300px;
+  border-top: 1px solid #f4f4f4; 
+}
+.purchase_order_view tbody tr:nth-child(even){
+  background: #f1f5f8;
+}
+.purchase_order_view_all_products thead tr:nth-child(1) th{
+  width: 17%;
+  background-color: rgb(214 234 245);
+  border-top: 1px solid #f4f4f4; 
+}
+.purchase_order_view_all_products thead tr th:nth-child(1){
+  width: 5%;
+}
+
+.purchase_order_view_all_products thead tr th:nth-child(2){
+  width: 27%;  
+  
+}
+.purchase_order_view_all_products tbody tr td,.purchase_order_view_all_products tbody tr th{ 
+  border-top: 1px solid #f4f4f4; 
+}
+.purchase_order_view_all_products tbody tr:nth-last-child(1){ 
+  background-color: rgb(247 219 222);
+}
+.c-switch-slider{
+height: 20px;
+}
+.c-switch-slider::before{
+  width: 16px;
+  height: 14px;
+  left: 4px;
+}
+.purchase_cancel_dialog .MuiDialog-paperWidthSm{
+  max-width: 100%!important;
+}
+.purchase_cancel_dialog .purchase_order_view tbody tr th{
+    width: 250px;
+    background-color: #eaeef2;
+    border-top: 1px solid #f4f4f4;
+}
+.my_custom_input{
+  height: 25px;
+}
+.purchase_cancel_dialog .purchase_order_view_all_products tbody tr:nth-last-child(1) {
+  background-color: #fff;
+}
+.permissions{
+  margin-top: 35px;
+
+}
+.LogoFont{
+  font-family: serif;
+    font-weight: 600;
+}
+.c-sidebar .c-sidebar-nav-link.c-active, .c-sidebar .c-active.c-sidebar-nav-dropdown-toggle {
+  color: #000;
+  background: rgba(255, 255, 255, 0.05);
+}
+.c-sidebar .c-sidebar-nav-link, .c-sidebar .c-sidebar-nav-dropdown-toggle {
+  color: #000;
+  background: transparent;
+}
+.c-sidebar .c-sidebar-nav-link .c-sidebar-nav-icon, .c-sidebar .c-sidebar-nav-dropdown-toggle .c-sidebar-nav-icon {
+  color: #000;
+}
+.c-sidebar .c-sidebar-nav-title {
+  color: #000;
+}
+.c-sidebar .c-sidebar-nav-link.c-active .c-sidebar-nav-icon, .c-sidebar .c-active.c-sidebar-nav-dropdown-toggle .c-sidebar-nav-icon {
+  color: #000;
+}
+.c-sidebar .c-sidebar-nav-link:hover, .c-sidebar .c-sidebar-nav-dropdown-toggle:hover {
+  color: #fff;
+  background: #ff9900!important;
+}
+.resolution_n_products{
+  list-style: none;
+}
+.card_bg{
+  padding: 1rem !important;
+  background: #ebedef;
+  border-radius: 5px;
+  /* min-height: 220px; */
+  margin: 0px 0 15px 0;
+}
+.warehouseDetails h4{
+  font-family: 'Roboto',sans-serif;
+  margin-bottom: 4px;
+  font-size: 18px;
+}
+.warehouserating{
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.warehouseDetails .rank{
+  background-color: #ff9900;
+  color: #fff;
+  padding: 2px 7px;
+  border-radius: 10px; 
+  font-size: 11px;
+}
+
+.warehouseDetails .regionNcommune span{
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500; 
+}
+.warehouseDetails .direction{ 
+  display: inline-block;
+  line-height: 1.4;
+  font-size: 12px;
+}
+.carousel-item,.carousel,.carousel-inner{
+  height: 100%;
+}
+.review_img{
+  min-width: 60px;
+  min-height: 60px;
+  border-radius: 50%;
+  max-width: 60px;
+  max-height: 60px;
+  margin-right: 15px;
+}
+.banner_img{
+  width: auto;
+  max-height: 40px;
+}
+.multibanner_div{
+  display: inline-block!important;
+  position: relative!important;
+ 
+}
+.multiImg_in_banner{
+  width: auto;
+  max-height: 75px;
+  max-width: 100%;
+  /* margin: 10px!important; */
+  padding: 10px!important;
+}
+.multiImg_in_banner_btn{
+  padding: 8px!important;
+  min-width: 10px!important;
+  border-radius: 50%!important;
+  position: absolute!important;
+  top: 15px!important;
+  right: 15px!important;
+  height: 10px;
+  width: 10px;
+}
+.tablePara{
+   font-weight: 500;    
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.blog_img_height{
+  height: 150px;
+  max-height: 150px;
+  width: auto;
+}
+.reply-wrap{
+  border-top: 1px solid #eee;
+  padding-top: .6rem;
+}
+.reply-wrap input{
+  height: 37px;
+}
+.reply_img{
+  min-width: 35px;
+  min-height: 35px;
+  border-radius: 50%;
+  max-width: 35px;
+  max-height: 35px;
+  margin-right: 30px;
+}
+.familyList .MuiListItemIcon-root { 
+  min-width: 30px; 
+}
+.familyList .MuiListItem-root {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.MuiSvgIcon-root {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  font-size: 1.2rem!important;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}
+.reviews{
+       text-decoration: none;
+     background-color: transparent;
+     color: unset;
+    
+}
+.reviews:hover{
+ text-decoration: none;
+background-color: transparent;
+color: unset;
+}
+.custom_checkbox{
+  width: 18px;
+  height: 18px;
+  margin-right: 13px;
+}
+.MuiDialog-paperWidthSm {
+  max-width: 600px;
+  min-width: 450px;
+}
+.multiImg_in_banner_btn1{
+  padding: 8px!important;
+  min-width: 10px!important;
+  border-radius: 50%!important;
+  position: absolute!important;
+  top: 5px!important;
+  right: 5px!important;
+  height: 10px;
+  width: 10px;
+}
+.newImg1{
+  width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.cat_img_preview_div1{
+  width: 80px;
+    height: 60px;
+    position: relative;
+}
+.log-header {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  height: 80px;
+  box-shadow: 0 2px 5px 1px rgb(182 179 185 / 16%);
+}
+.login-logohead {
+  color: #6699ff;
+  margin-bottom: 0;
+}
+.MuiIconButton-root{
+  padding: 4px!important;
+}
+.multiImg_in_banner_btn1 {
+  padding: 8px!important;
+  min-width: 10px!important;
+  border-radius: 50%!important;
+  position: absolute!important;
+  top: 5px!important;
+  right: 5px!important;
+  height: 10px;
+  width: 10px;
+}
+.height100{
+min-height: 100vh;
+}
+.pt-100{
+    padding-top: 100px;
+}
+.border10{
+    border-radius: 10px 10px 0 0;
+}
+.btn_orange{
+  background: #ff9900!important;
+  border-color: #ff9900!important;
+  color: #fff;
+
+}
+
+
+
+
+@media (hover: hover), not all{
+  .c-sidebar .c-sidebar-nav-link:hover, .c-sidebar .c-sidebar-nav-dropdown-toggle:hover {
+      color: #fff;
+      background: #39f;
+  }
+}
+
+@media (max-width: 575px) {
+  .pur-invoice-details{
+    flex-wrap: wrap;
+  }
+  .pur-invoice-details .comp-name.mt-5{
+      margin-top: 0!important;
+  }
+}
